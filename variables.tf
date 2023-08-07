@@ -33,7 +33,7 @@ variable "port" {
 variable "htpasswd" {
   type = string
   description = "A string contains username and encrypted password for nginx authentication. Can be generated using the command htpasswd -n username"
-  default = "admin:$apr1$c4jacuLY$ulHszg0B7fcO0uz4CFn2F/"
+  default = "admin:admin"
 }
 
 variable "region" {
